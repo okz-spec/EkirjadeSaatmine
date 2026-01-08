@@ -4,7 +4,7 @@ from email.message import EmailMessage
 def saada_kiri(kellele, kellelt):
     server = "smtp.gmail.com"
     port = 465
-    parool = "oqbm yqbi xcol ougl"
+    parool = ""
 
     kiri = EmailMessage()
     kiri["From"] = kellelt
