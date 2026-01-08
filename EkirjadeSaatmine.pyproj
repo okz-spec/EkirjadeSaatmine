@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>42066c67-306d-4d36-8786-3acd14a0cf28</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>EkirjadeSaatmine.py</StartupFile>
+    <StartupFile>Ekirja_PõhiFail.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,11 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="EkirjadeSaatmine.py" />
+    <Compile Include="Ekirja_PõhiFail.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="kiri.html" />
+    <Content Include="pilt.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
