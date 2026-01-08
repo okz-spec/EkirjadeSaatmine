@@ -33,5 +33,3 @@ def saada_kiri(kellele, kellelt):
             print("Kiri saadetud")
     except Exception as e:
         print(f"Midagi läks valesti ...{e}")
-
-saada_kiri("maratmatveev1337@gmail.com", "maratmatveev1337@gmail.com")
